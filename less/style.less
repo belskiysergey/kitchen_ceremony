@@ -1,0 +1,503 @@
+/* button */
+/* headlines */
+/* color */
+@color-text: #000000;
+
+body {
+  overflow-x: hidden;
+  font-family: 'Gerbera', Arial, sans-serif;
+}
+
+a {
+  color: @color-text;
+  text-decoration: none;
+
+  &:hover {
+    color: @color-text;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+/* site header */
+
+.header {
+  padding-top: 40px;
+  align-items: center;
+}
+
+.cosial-networks {
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+
+  &__elem {
+    width: 34px;
+    height: 31px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+}
+
+.facebook {
+  background: url("../img/desctop-social.png") no-repeat 7px 0px;
+}
+
+.vk {
+  background: url("../img/desctop-social.png") no-repeat -28px 0px;
+}
+
+.instagram {
+  background: url("../img/desctop-social.png") no-repeat -63px 0px;
+}
+
+.pinterest {
+  background: url("../img/desctop-social.png") no-repeat -98px 0px;
+}
+
+.language {
+  color: #787878;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-nav {
+  margin-top: 40px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+    &-elem {
+      margin: 0 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+
+/* banner */
+
+.banner {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 80px;
+
+  &__wrapper {
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+  }
+}
+
+.main-title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.banner__main-title {
+  margin-bottom: 20px;
+}
+
+.btn-header {
+  border: 1px #ffffff solid;
+  margin: 0 auto;
+  padding: 15px 20px;
+  width: max-content;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.banner__img {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* collections */
+
+.description {
+  margin-bottom: 80px;
+  text-align: center;
+
+  &__block {
+    margin-bottom: inherit;
+  }
+
+  &__description-title {
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+
+  &-title {
+    color: @color-text;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+
+  &__text {
+    color: @color-text;
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.slider {
+  text-align: -webkit-auto;
+}
+
+.about-packaging {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.link {
+  color: @color-text;
+  font-size: 12px;
+  line-height: 1.55;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.block-img {
+  &-right {
+    margin-top: 164px;
+    padding-left: 3px;  
+  }
+
+  &-center {
+    padding-right: 3px;
+  }
+
+  &__photo {
+    padding: 0px;
+  }
+}
+
+.most-loved-block {
+  padding-top: 60px;
+  padding-bottom: 30px;
+
+  &__heading-h3 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.heading-h3 {
+  font-family: 'Gerbera', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.card-product {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center; 
+
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+  }
+
+  &__cost {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.wrapp-new {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+.new {
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #ff4a4a;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.photo-spices {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.specification,
+.cost {
+  font-weight: 600;
+}
+
+.specification {
+  font-size: 16px;
+}
+
+.cost {
+  font-size: 14px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+
+  &-detail {
+    color: #000000;
+    background-color: #F7F7F7;
+    font-size: 13px;
+  }
+
+  &-basket {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 13px;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+.banner-spoons {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background: url(../img/Banner_Spoons.jpg) no-repeat 0px -158px;
+  background-size: cover;
+}
+
+.spice-devices {
+  position: absolute;
+  right: 40px;
+  width: 280px;
+  padding-top: 60px;
+  text-align: center;
+  z-index: 2;
+
+  &__headline {
+    font-size: 45px;
+    line-height: 1.15;
+  }
+
+  &__slogan {
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+.slogan {
+  font-size: 14px;
+  line-height: 1.55;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn-buy {
+  display: table;
+  margin: 0 auto 120px;
+
+  &__name-btn {
+    padding: 10px 40px;
+  }
+}
+
+.name-btn {
+  display: table-cell;
+  border: 1px black solid;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1999px) {
+  .banner-spoons {
+    background-position-y: -170px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+
+  .container {
+    max-width: 100% !important;
+  }
+
+  .cosial-networks {
+    justify-content: inherit;
+  }
+
+  .facebook {
+    background: url("../img/spred-social.png") no-repeat 0px -2px;
+  }
+
+  .vk {
+    background: url(../img/spred-social.png) no-repeat -35px -2px;
+  }
+
+  .instagram {
+    background: url(../img/spred-social.png) no-repeat -69px -2px;
+  }
+
+  .pinterest {
+    background: url(../img/spred-social.png) no-repeat -103px -2px;
+  }
+
+  .language {
+    display: none;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .nav-icon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 20px;
+
+    &__elem {
+      border: 1px black solid;
+    }
+  }
+
+  .banner {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .main-title {
+    font-size: 22px;
+  }
+
+  .btn-header {
+    padding: 12px 18px;
+  }
+
+  .banner-spoons {
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .slider {
+    display: none;
+  }
+} 
+
+@media screen and (max-width: 991px) {
+  .block-img {
+    display: none;
+  }
+
+  .shelf-goods {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .header {
+    padding-top: 0px;
+  }
+
+  .cosial-networks {
+    display: none;
+  }
+
+  .banner__wrapper {
+    width: 270px;
+  }
+
+  .main-title {
+    font-size: 16px;
+  }
+
+  .btn-header {
+    padding: 10px 16px;
+  }
+
+  .btn-name {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .btn {
+    width: 100%;
+
+    &-detail {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner__wrapper {
+    top: 30px;
+    left: 30px;
+  }
+
+  .main-title {
+    font-size: 3vw;
+  }
+
+  .btn-name {
+    font-size: 2.4vw;
+  }
+}
+
+
+
+
+
+
+
+
